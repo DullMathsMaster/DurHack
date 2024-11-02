@@ -1,1 +1,1 @@
-Banking app for employees 
+app for online wardrobe
