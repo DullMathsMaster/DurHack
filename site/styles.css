@@ -1,0 +1,117 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Main Container */
+.container {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Title */
+.container h1 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+/* Quiz Word */
+#quiz-word {
+    font-size: 1.5em;
+    color: #4a90e2;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* Options Container */
+#options-container {
+    margin-top: 15px;
+    padding: 20px;
+    background-color: #f8fafc;
+    border-radius: 8px;
+}
+
+/* Options Styling */
+label {
+    display: block;
+    font-size: 1.1em;
+    color: #555;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+/* Radio Button Styling */
+input[type="radio"] {
+    margin-right: 8px;
+    transform: scale(1.2);
+    accent-color: #4a90e2;
+}
+
+/* Buttons Styling */
+button {
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #357ab8;
+}
+
+button:active {
+    background-color: #2b5c91;
+}
+
+#start-btn, #new-word-btn {
+    display: inline-block;
+}
+
+/* Feedback Message */
+#feedback {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+#feedback.correct {
+    color: #28a745;
+}
+
+#feedback.incorrect {
+    color: #dc3545;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('Durhack.png');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
